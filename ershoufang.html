@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>北京二手房_北京二手房出售(链家网)</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/ershoufang.css">
+</head>
+<body>
+	<div class="">
+		<div class="top clearfix">
+			<div class="head_back"></div>
+			<div class="switch_city clearfix"><a href="">北京</a><div class=""></div></div>
+			<div class="logo"></div>
+			<div class="icon_user"></div>
+		</div>
+		<div class="img_scroll">
+			<!-- <div class="img_scroll_img"> -->
+				<ul class="clearfix">
+					<li><img src="./image/1.jpg"></li>
+					<li><img src="./image/2.jpg"></li>
+					<li><img src="./image/3.jpg"></li>
+					<li><img src="./image/4.jpg"></li>
+					<li><img src="./image/5.jpg"></li>
+					<li><img src="./image/6.jpg"></li>
+				</ul>
+			<!-- </div> -->
+			<div class="search">
+				<div class="search_icon"></div>
+				<input type="text" name="" placeholder="请输入小区或商圈名~">
+			</div>
+		</div>
+		<div class="nav_ul clearfix">
+			<div class="znzf">
+				<img src="./image/phphOykoz.png!m_fill,w_144,h_144,f_png">
+				<p>智能找房</p>
+			</div>
+			<div class="hfdt">
+				<img src="./image/phpKy8gb4.png!m_fill,w_144,h_144,f_png">
+				<p>换房地图</p>
+			</div>
+			<div class="qbfy">
+				<img src="./image/phpQHFL7t.png!m_fill,w_144,h_144,f_png">
+				<p>全部房源</p>
+			</div>
+		</div>
+		<div class="mod_box">
+			<div class="mod_tit">
+				<p>为您推荐</p>
+			</div>
+			<div class="mod_list">
+				<div class="mod_img">
+					<img src="./image/phpmVucxY.jpeg!m_fill,w_500,h_280,f_jpg">
+					<div class="mod_img_text">
+						<h6>适合小两口的生活之家</h6>
+						<p>500万内帮您安家北京</p>
+					</div>
+				</div>
+				<div class="mod_img">
+					<img src="./image/php1ZpbwS.jpeg!m_fill,w_500,h_280,f_jpg">
+					<div class="mod_img_text">
+						<h6>新上房第一时间抢</h6>
+						<p>好房当然不错过</p>
+					</div>
+				</div>
+				<div class="mod_img">
+					<img src="./image/phpqsalph.jpeg!m_fill,w_500,h_280,f_jpg">
+					<div class="mod_img_text">
+						<h6>年终减价优质房源</h6>
+						<p>帮您完成安家小心愿</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="house">
+			<div class="house_bar">
+				<ul class="clearfix">
+					<li>区域<div class="house_bar_tri"><img src="./image/a.png"></div></li>
+					<li>价格<div class="house_bar_tri"><img src="./image/a.png"></div></li>
+					<li>房型<div class="house_bar_tri"><img src="./image/a.png"></div></li>
+					<li>更多<div class="house_bar_tri"><img src="./image/a.png"></div></li>
+				</ul>
+			</div>
+			<div class="download_card clearfix">
+				<p>保存搜索条件，获取最新房源</p>
+				<div class="download_btn ">
+					<a href="#">安装APP</a>
+					<span>></span>
+				</div>
+			</div>
+			<div class="house_lists">
+				<!-- <div class="house_lists_eg">
+					<img src="./image/a.jpg">
+					<div class="ty">
+						优选
+					</div>
+					<div class="house_lists_eg_intro">
+						<div class="title">新城乐居 3室1厅 410万</div>
+						<div class="location"><p>3室1厅/93.75m²/东 南 北/新城乐居</p></div>
+						<div class="price"><strong>410万</strong><p>43734元/平</p></div>
+						<div class="tag">
+							<p class="tag_a">地铁</p>
+							<p class="tag_b">满五年</p>
+							<p class="tag_c">新上</p>
+							<p class="tag_d">有电梯</p>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/house_lists.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			function Scroll(){
+				$(".img_scroll ul ").animate({
+					left:'-=97rem'
+				},2000,function(){
+					$(".img_scroll ul").css({"left":"-97rem"})
+					$(".img_scroll ul li").first().insertAfter($(".img_scroll ul li").last())
+				})
+			}
+			var timer = setInterval(function(){
+				Scroll();
+			},4000)
+		})
+	</script>
+</body>
+</html>
