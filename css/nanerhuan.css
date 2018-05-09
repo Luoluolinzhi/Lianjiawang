@@ -1,0 +1,239 @@
+html,body {
+	font-size: 62.5%;
+}
+html,body,div,ul,li,a,img,input,p,h3,h6,span,strong{
+	margin: 0;
+	padding: 0;
+}
+.clearfix::after{
+	display: block;
+	clear: both;
+	height: 0;
+	content: "";
+}
+body{
+	font-size: 1.4rem;
+}
+.all{
+	width: 100%;
+	background: white;
+}
+.top{
+	width: 100%;
+	padding-top: 1rem;
+	background: white;
+}
+	.head_back{
+		float: left;
+		margin: 0rem 1rem;
+		width: 2rem;
+		height: 2rem;
+		background: url(../image/sprite_new.svg) 0.5rem -3.5rem no-repeat;
+	}
+	.switch_city{
+		float: left;
+		margin: 0rem 1rem;
+	}
+		.switch_city a{
+			line-height: 2rem;
+			font-size: 1.4rem;
+			text-decoration: none;
+			color: #000;
+		}
+		.switch_city div{
+			margin-top: 0.7rem;
+			float: right;
+			width: 1rem;
+			height: 1rem;
+			background: url(../image/sprite_new.svg) -0.8rem -20.5rem no-repeat;
+		}
+		.logo{
+			display: inline-block;
+			margin-left: 35%;	
+			width: 4.2rem;
+			height: 3rem;
+			background: url(../image/sprite_new.svg) 0rem -6.5rem no-repeat;
+		}
+		.icon_user{
+			float: right;
+			width: 3rem;
+			height: 3rem;
+			background: url(../image/sprite_new.svg) 0rem 0rem no-repeat;
+		}
+.img_title{
+	position: relative;
+	width: 100%;
+}
+	.img_title img{
+		width: 100%;
+	}
+.house_desc{
+	padding: 0 1rem;
+}
+	.house_desc h3{
+		padding: 1rem 0;
+		font-size: 3rem;
+	}
+	.house_desc ul{
+		padding: 1rem 0;
+		border-top: 0.1rem solid #9c9fa1;
+		border-bottom: 0.1rem solid #9c9fa1;
+	}
+	.house_desc ul li{
+		float: left;
+		width: 33%;
+		list-style: none;
+	}
+	.house_desc ul li div{
+		float: left;
+	}
+	.house_desc ul li .boder{
+		margin-top: 0.5rem;
+		padding-right: 2rem;
+		float: right;
+		height: 3rem;
+		border-left: 0.1rem solid #9c9fa1;
+	}
+	.house_desc ul li h6{
+		font-size: 1.4rem;
+		color: #9c9fa1;
+		line-height: 2rem;
+	}
+	.house_desc ul li p{
+		font-size: 1.6rem;
+		font-weight: 600;
+		color: #fa5741;
+		line-height: 2rem;
+	}
+.download_card{
+	margin: 0 1rem;
+	border-bottom: 0.1rem solid #9c9fa1;
+}
+	.download_card img{
+		float: left;
+		width: 2rem;
+		padding: 1rem 0.5rem 0 0;
+	}
+	.download_card p{
+		float: left;
+		font-size: 1.6rem;
+		line-height: 4rem;
+		color: #394043;
+	}
+	.download_btn{
+		float: right;
+		padding: 0.5rem 0;
+	}
+		.download_btn span{
+			font-size: 2rem;
+			color: gray;
+			padding: 0.5rem 0;
+		}
+.house_detail{
+	margin: 0 1rem;
+	border-bottom: 0.1rem solid #9c9fa1;
+}
+	.tag p{
+		display: inline-block;
+		margin: 1rem 1rem 1rem 0;
+		font-size: 1.2rem;
+	}
+		.tag_a{
+			background: rgba(89,171,253,0.15);
+			color: rgb(89,171,253);
+		}
+		.tag_b{
+			background: rgba(242,161,47,0.15);
+			color: rgb(242,161,47);
+		}
+		.tag_c{
+			border-radius: rgba(103,206,103,0.15);
+			color: rgb(103,206,103);
+		}
+		.tag_d{
+			background: rgba(123,189,255,0.15);
+			color: rgb(123,189,255);
+		}
+	.detail{
+
+	}
+		.detail ul{
+			padding: 1rem 0;
+			float: left;
+			width: 50%;
+		}	
+		.detail ul li{
+			list-style: none;
+		}
+		.detail ul li h6{
+			display: inline-block;
+			font-size: 1.4rem;
+			color: #9c9fa1;
+			line-height: 2.5rem;
+		}
+		.detail ul li p{
+			display: inline-block;
+			font-size: 1.4rem;
+			line-height: 2.5rem;
+		}
+		.detail ul li a{
+			display: inline-block;
+			font-size: 1.4rem;
+			line-height: 2.5rem;
+			text-decoration: none;
+			color: #5680a6;
+		}
+.huxingfenjian{
+	padding: 1rem 1rem;
+}
+	.huxingfenjian .detail{
+		float: left;
+	}
+		.huxingfenjian h3{
+			font-size: 1.6rem;
+			line-height: 2rem;
+			font-weight: 400;
+		}
+		.huxingfenjian p{
+			line-height: 1.6rem;
+			font-size: 1.2rem;
+			color: #9c9fa1;
+		}
+	.huxingfenjian img{
+		margin-right:1rem;
+		width: 10.4rem;
+		float: right;
+	}
+.more{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+	.more a{
+		display: inline-block;
+		font-size: 1.4rem;
+		line-height: 2.5rem;
+		text-decoration: none;
+		color: #5680a6;
+	}
+.map img{
+	width: 100%;
+}
+.house_intro{
+	margin: 1rem 1rem;
+	
+}
+	.house_intro h3{
+		line-height: 3rem;
+		font-size: 1.6rem;
+	}
+	.house_intro p{
+		font-size: 1.4rem;
+		border-bottom: 0.1rem solid #9c9fa1;
+		padding: 1rem 0;
+	}
+	.house_intro h6{
+		font-weight: 400;
+		font-size: 1.2rem;
+		color: #9c9fa1;
+	}
